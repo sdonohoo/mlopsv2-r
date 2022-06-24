@@ -142,7 +142,7 @@ def main():
     #                          min_samples_split = args.regressor__min_samples_split,
     #                          random_state=0))])
 
-
+    # RandomForestRegressor
     model = RandomForestRegressor(n_estimators = args.regressor__n_estimators,
                                   bootstrap = args.regressor__bootstrap,
                                   max_depth = args.regressor__max_depth,
